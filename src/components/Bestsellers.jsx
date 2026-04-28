@@ -1,10 +1,9 @@
 import React from "react";
 import "./Bestsellers.css";
 
-// Importing based on your folder structure (assets is sibling to components)
-import lanaImg from "../assets/lana.png";
-import porscheImg from "../assets/part.jpg"; 
-import rubyImg from "../assets/logo.png"; 
+import lanaImg from "../assets/lanadelrey.png";
+import porscheImg from "../assets/porsche.png"; 
+import rubyImg from "../assets/rubylips.png"; 
 
 const Bestsellers = () => {
   const products = [
@@ -30,10 +29,10 @@ const Bestsellers = () => {
 
   return (
     <section className="bestsellers-section">
-      {/* Title Section */}
+      {}
       <h2 className="bestsellers-title">Our Bestsellers</h2>
 
-      {/* Product Grid */}
+      {}
       <div className="product-grid">
         {products.map((product) => (
           <div key={product.id} className="product-card">
@@ -46,7 +45,7 @@ const Bestsellers = () => {
         ))}
       </div>
 
-      {/* Features Footer Section */}
+      {}
       <div className="features-container">
         <div className="feature-item">
           <div className="feature-icon">🚚</div>

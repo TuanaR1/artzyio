@@ -5,11 +5,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <a href="#">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">PRODUCTS</a>
-        <a href="#">NEWS</a>
-        <a href="#">CONTACT</a>
+        <a href="home.jsx">HOME</a>
+        <a href="About.jsx">ABOUT</a>
+        <a href="products.jsx">PRODUCTS</a>
+        <a href="news.jsx">NEWS</a>
+        <a href="contact.jsx">CONTACT</a>
       </div>
 
 

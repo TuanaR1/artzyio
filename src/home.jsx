@@ -2,6 +2,8 @@ import { useState } from "react";
 import Sidebar from "./components/Sidebar";
 import Bestsellers from "./components/Bestsellers"; 
 import Gallery from "./components/Gallery"; 
+import Footer from "./components/Footer";  
+
 import "./pages/App.css";
 
 function Home() {
@@ -43,7 +45,12 @@ function Home() {
         </div>
       </div>
 
-      <Bestsellers/>
+      <Gallery />
+
+      <Bestsellers />
+      <Footer />
+
+      
     </div>
   );
 }
