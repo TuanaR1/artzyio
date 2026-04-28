@@ -1,5 +1,7 @@
 import React from "react";
 import "./Gallery.css";
+import lanaImg from "../assets/lana.png";
+import partImg from "../assets/part.jpg";
 
 const Gallery = () => {
   return (
@@ -14,10 +16,10 @@ const Gallery = () => {
 
       <div className="gallery-grid">
         <div className="art-card">
-          <img src="/lana.png" alt="Born to Die Artwork" />
+          <img src={lanaImg} alt="Born to Die Artwork" />
         </div>
         <div className="art-card">
-          <img src="/part.jpg" alt="Process Artwork" />
+          <img src={partImg} alt="Process Artwork" />
         </div>
       </div>
     </section>

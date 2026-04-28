@@ -1,6 +1,8 @@
 import { useState } from "react";
-import Sidebar from "../components/Sidebar";
-import "./Home.css"; 
+import Sidebar from "./components/Sidebar";
+import Bestsellers from "./components/Bestsellers"; 
+import Gallery from "./components/Gallery"; 
+import "./pages/App.css";
 
 function Home() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -40,6 +42,8 @@ function Home() {
           <button className="shop-btn">Shop Now</button>
         </div>
       </div>
+
+      <Bestsellers/>
     </div>
   );
 }
