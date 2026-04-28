@@ -1,0 +1,93 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  z-index: 10;
+  background-color: black;
+}
+
+.nav-left a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-center {
+  font-size: 22px;
+  font-style: italic;
+}
+.nav-center img {
+  width: 100px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.cart {
+  text-decoration: none;
+  color: white;
+}
+
+.login-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.hero {
+  height: 100vh;
+  width: 181vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.hero-content {
+  position: absolute;
+  top: 70%;
+  left: 100px; 
+  transform: translateY(-50%);
+  color: white;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.shop-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  color: black;
+}
+
