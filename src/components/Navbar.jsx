@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <div className="nav-right">
         <span className="cart"><a href="cart.jsx" className="cart">🛒</a></span>
-        <button className="login-btn">LOGIN</button>
+        <button className="login-btn">LOGIN </button>
       </div>
     </nav>
   );
