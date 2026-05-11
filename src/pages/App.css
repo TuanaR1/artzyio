@@ -90,3 +90,54 @@
   color: black;
 }
 
+/* Contact Page CSS */
+.contact-page {
+  min-height: 100vh;
+  background: #0f0f0f;
+  color: white;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.contact-card {
+  margin-top: 200px;
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-card input,
+.contact-card textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.contact-card button {
+  padding: 10px;
+  border: none;
+  background: #000000;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-card button:hover {
+  padding: 10px;
+  border: none;
+  background: #0c0c0c;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
