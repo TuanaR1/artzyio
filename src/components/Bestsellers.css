@@ -1,5 +1,5 @@
 .bestsellers-section {
-  padding: 80px 10%;
+  padding: 80px;
   background-color: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -10,8 +10,8 @@
   margin-bottom: 50px;
   font-weight: 500;
   color: #000;
+  
 }
-
 
 .product-grid {
   display: flex;
@@ -25,19 +25,16 @@
 .product-card {
   width: 280px;
   text-align: center;
+  background: #ffffff;
 }
 
 .product-image-container {
   background: #fff;
   padding: 10px;
-
+  
   margin-bottom: 20px;
-  transition: transform 0.3s ease;
 }
 
-.product-image-container:hover {
-  transform: translateY(-10px);
-}
 
 .product-image-container img {
   width: 100%;
@@ -50,11 +47,11 @@
   font-size: 1.1rem;
   font-weight: 400;
   margin: 10px 0 5px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .product-price {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 0.95rem;
 }
 
