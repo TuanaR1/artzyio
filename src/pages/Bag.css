@@ -1,0 +1,168 @@
+.bag-page {
+  min-height: 100vh;
+  background: #0d0d0d;
+  color: white;
+}
+
+/* HERO */
+
+.bag-hero {
+  text-align: center;
+  padding: 140px 8% 60px;
+}
+
+.bag-hero h1 {
+  font-size: 58px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.bag-hero p {
+  color: #bcbcbc;
+  font-size: 16px;
+}
+
+/* TABLE */
+
+.bag-table-section {
+  padding: 0 8% 70px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 18px;
+}
+
+.bag-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #3a3a3a;
+  overflow: hidden;
+  min-width: 700px;
+}
+
+.bag-table th {
+  background: #4e4e4e;
+  color: #000000;
+  padding: 20px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.bag-table td {
+  padding: 24px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  color: #d4d4d4;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 50px !important;
+  color: #8f8f8f;
+  font-size: 16px;
+}
+
+/* CHECKOUT */
+
+.checkout-section {
+  padding: 0 8% 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-card {
+  width: 100%;
+  max-width: 650px;
+
+  background: #3a3a3a;
+  padding: 40px;
+  border-radius: 22px;
+
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.checkout-card h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+/* FORM */
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.checkout-form input {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+
+  background: #242424;
+  color: white;
+
+  outline: none;
+  font-size: 15px;
+}
+
+.checkout-form button {
+  margin-top: 10px;
+
+  padding: 15px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #000000;
+  color: rgb(255, 255, 255);
+
+  font-weight: 700;
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.checkout-form button:hover {
+  background: white;
+  transform: translateY(-2px);
+  color: black;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .bag-hero h1 {
+    font-size: 42px;
+  }
+
+  .checkout-card {
+    padding: 30px;
+  }
+
+  .checkout-card h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bag-hero {
+    padding: 120px 6% 50px;
+  }
+
+  .bag-hero h1 {
+    font-size: 34px;
+  }
+
+  .bag-table-section,
+  .checkout-section {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .checkout-card {
+    padding: 24px;
+  }
+}
