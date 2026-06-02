@@ -2,13 +2,15 @@
   padding: 60px 20px;
   background-color: #ffffff;
   text-align: center;
-  font-family: 'Inter', sans-serif; /* Or your preferred font */
+  font-family: 'Inter', sans-serif; 
 }
 
 .gallery-header h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
   font-weight: 500;
+  color: black;
+
 }
 
 .gallery-header p {
@@ -34,8 +36,8 @@
 .art-card {
   flex: 1;
   overflow: hidden;
-  border-radius: 12px; /* Smooth rounded corners from the image */
-  aspect-ratio: 4 / 5; /* Matches the vertical poster look */
+  border-radius: 12px; 
+  aspect-ratio: 4 / 5; 
 }
 
 .art-card img {
@@ -50,7 +52,7 @@
   transform: scale(1.02);
 }
 
-/* Responsive adjustment for mobile */
+
 @media (max-width: 768px) {
   .gallery-grid {
     flex-direction: column;

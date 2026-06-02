@@ -1,0 +1,89 @@
+.signup-page {
+  min-height: 100vh;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* CENTER WRAPPER */
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 20px;
+}
+
+/* CARD STYLE (same as login) */
+.signup-card {
+  background: #1c1c1c;
+  padding: 35px;
+  border-radius: 16px;
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 150px;
+
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* TITLE */
+.signup-card h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+/* INPUTS */
+.signup-card input {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #2a2a2a;
+  color: white;
+  outline: none;
+}
+
+/* BUTTON */
+.signup-card button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.signup-card button:hover {
+  background: #ffffff;
+  color: black;
+}
+
+/* TEXT */
+.signup-text {
+  font-size: 14px;
+  color: #aaa;
+  text-align: center;
+}
+
+.signup-text a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  .signup-card {
+    width: 100%;
+    padding: 25px;
+  }
+}
